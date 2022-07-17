@@ -8,6 +8,7 @@
     padding: 0;
     box-sizing: border-box;
     scroll-behavior: smooth;
+    
 }
 
 header{
@@ -52,11 +53,12 @@ section{
     min-height: 100vh;
     display: flex;
     align-items: center;
-    /* background: url("world_scout_logo.jpg") no-repeat; */
-    background-color: var(--main);
+    background: url("picture1.png") no-repeat;
+    /* background-color: var(--main); */
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
+    text-align: right;
 } 
 
 .main h2{
